@@ -1,2 +1,2 @@
 # 2020xxxx	DongHyeon Yu
-# Kookmin Univ. SW
+# Kookmin Univ. computer science
