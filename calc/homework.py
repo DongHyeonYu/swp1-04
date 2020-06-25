@@ -7,7 +7,7 @@ def application(environ, start_response):
 	global mul
         a = d.get('a',[''])[0]
 	b = d.get('b',[''])[0]
-
+	sum,mul = 0,0
         if '' not in [a,b]:
 	    a, b = int(a), int(b)
 	    mul = a*b
