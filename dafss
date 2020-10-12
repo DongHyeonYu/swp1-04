@@ -1,0 +1,31 @@
+class Solution {
+    public String solution(int month, int day) {
+        String answer = "";
+        if ((month == 1)&&((day>=20)&&(day<=31)) answer = "물병자리";
+        else if ((month == 2)&&(day<=18)) answer = "물병자리";
+        else if ((month == 2)&&((day>=19)&&(day<=29))) answer = "물고기자리";
+        else if ((month == 3)&&(day<=20)) answer = "물고기자리";
+        else if ((month == 3)&&((day>=21)&&(day<=31))) answer = "양자리";
+        else if ((month == 4)&&(day<=19)) answer = "양자리";
+        else if ((month == 4)&&((day>=20)&&(day<=30)) answer = "황소자리";
+        else if ((month == 5)&&(day<=20)) answer = "황소자리";
+        else if ((month == 5)&&((day>=21)&&(day<=31))) answer = "쌍둥이자리";
+        else if ((month == 6)&&(day<=20)) answer = "쌍둥이자리";
+        else if ((month == 6)&&((day>=21)&&(day<=30))) answer = "게자리";
+        else if ((month == 7)&&(day<=22)) answer = "게자리";
+        else if ((month == 7)&&((day>=23)&&(day<=31))) answer = "사자자리";
+        else if ((month == 8)&&(day<=22)) answer = "사자자리";
+        else if ((month == 8)&&((day>=23)&&(day<=31))) answer = "처녀자리";
+        else if ((month == 9)&&(day<=22)) answer = "처녀자리";
+        else if ((month == 9)&&((day>=23)&&(day<=30))) answer = "천칭자리";
+        else if ((month == 10)&&(day<=22)) answer = "천칭자리";
+        else if ((month == 10)&&((day>=23)&&(day<=31))) answer = "전갈자리";
+        else if ((month == 11)&&(day<=21)) answer = "전갈자리";
+        else if ((month == 11)&&((day>=22)&&(day<=30))) answer = "사수자리";
+        else if ((month == 12)&&(day<=21)) answer = "사수자리";
+        else if ((month == 12)&&((day>=22)&&(day<=31))) answer = "염소자리";
+        else if ((month == 1)&&(day<=19)) answer = "염소자리";
+        else answer = "month 또는 day 입력오류";
+        return answer;
+    }
+}
